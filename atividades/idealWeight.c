@@ -9,7 +9,7 @@ int main(){
     printf("Qual o seu sexo?(Responda com M ou F)\n");
     scanf("%s", &gender);
 
-    if(gender == 'M' || 'm'){
+    if(gender == 'M'){
         weight = 72,7*height-58;
         printf("Seu peso ideal é: %.2f\n", weight);
     }else{
