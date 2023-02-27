@@ -10,9 +10,9 @@ int main(){
     printf("Digite um valor para n: "); scanf("%d", &n);
 
     i = x * 2;
-    potencia = sqrt(pow(i,n));
+    potencia = pow(i,n);
 
-    printf("O produto entre x por 2 elevado a n é: %d\n", potencia); //para corrigir depois
+    printf("O produto entre x por 2 elevado a n é: %d\n", potencia); 
     return 0;
     
 }

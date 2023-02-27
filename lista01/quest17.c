@@ -1,13 +1,13 @@
 #include <stdio.h>
+#include <math.h>
 
 int main(){
-    int x, y;
+    int valor;
 
-    printf("Digite um número inteiro: "); scanf("%d", &x);
-
-    y = (x >=0) ? x: 2*x; //não soube fazer corretamente a situação falsa
-
-    printf("Este é seu valor absoluto: %d", y);   
+    printf("Digite o valor: "); scanf("%d", &valor);
+  
+    valor = sqrt(valor * valor);
+  
+    printf("Valor absoluto: %d", valor);
     return 0;
 }
-
