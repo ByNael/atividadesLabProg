@@ -13,6 +13,5 @@ int main(){
 
     printf("Salário bruto: %.2f\n", salBruto);
     printf("Salário líquido: %.2f\n", salLiquido);
-
     return 0;
 }

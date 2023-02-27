@@ -13,6 +13,5 @@ int main (){
     volume = lenght * width * height;
 
     printf("O volume do retângulo é: %d\n", volume);
-
     return 0;
 }

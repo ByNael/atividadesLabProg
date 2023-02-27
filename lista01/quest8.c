@@ -7,6 +7,5 @@ int main (){
     scanf("%d", &x);
 
     printf("Este é seu valor ao quadrado: %d \n", x*x);
-
     return 0;
 }

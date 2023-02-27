@@ -13,7 +13,5 @@ int main (){
     total = hour * 3600 + minutes * 60 + seconds;
 
     printf("O valor em segundos é: %d\n", total);
-
-
     return 0;
 }

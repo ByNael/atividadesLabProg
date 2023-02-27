@@ -7,7 +7,7 @@ int main(){
 
     y = (x >=0) ? x: 2*x; //não soube fazer corretamente a situação falsa
 
-    printf("Este é seu valor absoluto: %d", y);
+    printf("Este é seu valor absoluto: %d", y);   
     return 0;
 }
 
